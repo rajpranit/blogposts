@@ -4,7 +4,7 @@ from .models import AllPost ,Comment ,Categories
 def index(request):
  
    allpost = AllPost.objects.all()
-   sliderpost = AllPost.objects.all().order_by('id')[:2]
+   sliderpost = AllPost.objects.filter(post_type = 'sliderpost')
    return render(request,'weebs/index.html',{
       'allpost':allpost,
       'sliderpost':sliderpost,
