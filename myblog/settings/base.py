@@ -111,7 +111,7 @@ STATIC_URL = 'static/'
 
 STATICFILES_DIRS = [
 
-    'weebs/static'
+    'static/'
 
 ]
 
