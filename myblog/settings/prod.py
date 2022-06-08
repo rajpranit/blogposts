@@ -2,7 +2,7 @@ from .base import *
 from decouple import config
 import os
 
-SECRET_KEY = 'django-insecure-uni%#e+87cz0cuf+z5*eb!@k$zfu-*m0f*t2ca^y_*wgn@f(p8'
+SECRET_KEY = config('SECRET_KEY')
 
 
 DEBUG = False
@@ -65,3 +65,6 @@ CSRF_COOKIE_SECURE              = True
 SECURE_HSTS_INCLUDE_SUBDOMAINS  = True
 SECURE_HSTS_SECONDS             = 1000000
 SECURE_FRAME_DENY               = True
+
+django_on_heroku.settings(locals() , staticfiles=False)
+del DATABASES ['default'] ['OPTIONS'] ['sslmode']
