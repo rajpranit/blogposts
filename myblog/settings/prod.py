@@ -1,6 +1,7 @@
 from .base import *
 from decouple import config
 import os
+import django_on_heroku
 
 SECRET_KEY = config('SECRET_KEY')
 
