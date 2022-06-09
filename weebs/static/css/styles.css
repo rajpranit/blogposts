@@ -1687,7 +1687,7 @@ h6, .h6 {
 }
 
 .lead, .attention-getter {
-    font-family: var(--font-2);
+    font-family: cursive;
     font-weight: 300;
     font-size: var(--text-md);
     line-height: calc(1.125 * var(--space));
