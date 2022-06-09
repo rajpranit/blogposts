@@ -5195,3 +5195,11 @@ body.search-is-visible {
     }
 
 }
+
+.lead{
+    
+        color: black;
+        font-family: cursive;
+        font-weight: 200;
+    
+}

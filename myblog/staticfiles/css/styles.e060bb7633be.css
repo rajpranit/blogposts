@@ -2507,7 +2507,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     background-repeat: no-repeat;
     background: center center;
     background-size: contain;
-    background-image: url(../images/icons/icon-quote.svg);
+    background-image: url("../images/icons/icon-quote.a9bcef12d161.svg");
     -webkit-transform: translate3d(-50%, 0, 0);
     transform: translate3d(-50%, 0, 0);
     position: absolute;
@@ -3471,11 +3471,11 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .format-quote .entry__thumb::before {
-    background-image: url(../images/icons/icon-quote.svg);
+    background-image: url("../images/icons/icon-quote.a9bcef12d161.svg");
 }
 
 .format-link .entry__thumb::before {
-    background-image: url(../images/icons/icon-link.svg);
+    background-image: url("../images/icons/icon-link.63ef16eb7fa4.svg");
     width: 3.2rem;
     height: 3.2rem;
     background-repeat: no-repeat;
@@ -3526,7 +3526,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .format-video .entry__thumb::after {
     cursor: -webkit-zoom-in;
     cursor: zoom-in;
-    background-image: url(../images/icons/icon-video.svg);
+    background-image: url("../images/icons/icon-video.4b93fd9c8c79.svg");
     background-size: 2.8rem 2.8rem;
 }
 
@@ -3536,7 +3536,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .format-audio .entry__thumb::after {
-    background-image: url(../images/icons/icon-audio.svg);
+    background-image: url("../images/icons/icon-audio.de1237c77ab1.svg");
     background-size: 2.8rem 2.8rem;
 }
 
